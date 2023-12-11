@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<vType id="CartA" length="5" maxSpeed="33" mingap="40" accel="3" decel="3" sigma="0.8" carFollowModel="IDM" tau="8" delta="4" sigmaleader="0.3" sigmagap="0.3" sigmaerror="0.3"/>
+	<vType id="CartB" length="5" maxSpeed="33" mingap="10" accel="3" decel="3" sigma="0.5" carFollowModel="IDM" tau="4" delta="4" sigmaleader="0.1" sigmagap="0.1" sigmaerror="0.1"/>
+	<route id="lc1" color= "0,1,0" edges="gneE0"/>
+
+	<vehicle id="1" color="0,1,0" type="CartA" route="lc1" departLane="0" depart="0" departSpeed="30" />
+	<vehicle id="2" color="0,1,0" type="CartA" route="lc1" departLane="1" depart="0" departSpeed="30" />
+	<vehicle id="3" color="0,1,0" type="CartA" route="lc1" departLane="2" depart="0" departSpeed="30" />
+	<vehicle id="4" color="0,1,0" type="CartA" route="lc1" departLane="0" depart="0" departSpeed="30" />
+	<vehicle id="5" color="0,1,0" type="CartA" route="lc1" departLane="1" depart="0" departSpeed="30" />
+	<vehicle id="6" color="0,1,0" type="CartA" route="lc1" departLane="2" depart="0" departSpeed="30" />
+	<vehicle id="7" color="0,1,0" type="CartA" route="lc1" departLane="0" depart="0" departSpeed="30" />
+	<vehicle id="8" color="0,1,0" type="CartA" route="lc1" departLane="1" depart="0" departSpeed="30" />
+	<vehicle id="9" color="0,1,0" type="CartA" route="lc1" departLane="2" depart="0" departSpeed="30" />
+	<vehicle id="10" color="0,1,0" type="CartA" route="lc1" departLane="0" depart="0" departSpeed="30" />
+	<vehicle id="11" color="0,1,0" type="CartA" route="lc1" departLane="1" depart="0" departSpeed="30" />
+	<vehicle id="12" color="0,1,0" type="CartA" route="lc1" departLane="2" depart="0" departSpeed="30" />
+	<vehicle id="13" color="0,1,0" type="CartA" route="lc1" departLane="0" depart="0" departSpeed="30" />
+	<vehicle id="14" color="0,1,0" type="CartA" route="lc1" departLane="1" depart="0" departSpeed="30" />
+	<vehicle id="15" color="0,1,0" type="CartA" route="lc1" departLane="2" depart="0" departSpeed="30" />
+	<vehicle id="0" color="1,0,0" type="CartB" route="lc1" departLane="1" depart="0" departSpeed="30" />
+
+</routes>

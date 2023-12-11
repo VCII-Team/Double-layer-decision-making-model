@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-30 18:31:53 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Project_codes%20of%20pycharm\2021.6.29\car-follow-5.24\car-lc-net.net.xml"/>
+        <route-files value="D:\Project_codes%20of%20pycharm\2021.6.29\car-follow-5.24\car-lc-rou.rou.xml"/>
+    </input>
+
+    <output>
+        <lanechange-output value="D:\Project_codes%20of%20pycharm\2021.6.29\car-follow-5.24\lanechange-output.xml"/>
+        <collision-output value="D:\Project_codes%20of%20pycharm\2021.6.29\car-follow-5.24\collision-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="warn"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="D:\Project_codes%20of%20pycharm\2021.6.29\car-follow-5.24\car-lc.settings.xml"/>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<lanechanges>
+</lanechanges>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<vType id="CartA" length="5" maxSpeed="33" carFollowModel="IDM" tau="1.4" delta="4"/>
+	
+	<route id="lc2" edges="gneE4"/>
+	<route id="lc3" edges="gneE5"/>
+	<vehicle id="001" color="0,1,0" type="CartA" route="lc2" departLane="0" depart="0" departSpeed="1" />
+	<vehicle id="002" color="1,0,0" type="CartA" route="lc2" departLane="0" depart="1" departSpeed="1" />
+	
+</routes>

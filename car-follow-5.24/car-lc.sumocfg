@@ -1,0 +1,27 @@
+<configuration>
+    <input>
+        <net-file value="car-lc-net.net.xml"/>
+        <route-files value="car-lc-rou.rou.xml"/>
+    </input>
+	<output>
+		<collision-output value="collision-output.xml"/>
+		<lanechange-output value="lanechange-output.xml"/>
+	</output>
+    <report>
+        <no-step-log value="true"/>
+    </report>
+	<time>
+	    <begin value="0"/>
+		<end value="1000"/>
+		<step-length value="0.1"/>
+	</time>
+	<gui_only>
+	  <gui-settings-file value="car-lc.settings.xml"/>
+	    <start value="t"/>
+		<quit-on-end value="t"/>
+	</gui_only>
+	
+	<processing>
+		<collision.action value="warn"/>
+	</processing>
+</configuration>
